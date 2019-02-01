@@ -17,6 +17,8 @@ Some comments:
 * Are there other astrophysical events happening at this time? I haven't looked at μany other Sector 3 lightcurves yet really, but from what I can tell they don't seem to do this (see notebooks/random.ipynb for a lightkurve interface - I just picked a fifth mag star as an example - look in data for the list of all targets in Sector 3).
 * I think the key issue is to figure out what is the field-dependent background calibration the TESS team pipeline applied. We won't figure this out unless we know what processing gave us the pipeline TPF and whether there are known effects that do this!
 
+I have done a comparison to zeta Ceti using halo - we get overall very poor halo results (but surprisingly very good pipeline results) on zeta Ceti, which shows the same background dip. In the halo light curve you can kind of see a very weak dip at the epoch. I am not sure what this tells us.
+
 ### Dependencies
 
 The main dependencies are
